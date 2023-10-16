@@ -1,0 +1,24 @@
+syntax = "proto3";
+package it.unimi.di.sdp.proto;
+
+message RideRequest {
+  Ride ride = 1;
+  int32 idTaxi = 2;
+  double distance = 3;
+  double batteryLevel = 4;
+}
+
+message RideResponse {
+  string response = 1;
+}
+
+message Ride {
+  int32 district = 1;
+  int32 pos_x = 2;
+  int32 pos_y = 3;
+  int32 rideId = 4;
+}
+
+service RideService {
+  rpc sendRequestToGetRide(RideRequest) returns (RideResponse);
+}

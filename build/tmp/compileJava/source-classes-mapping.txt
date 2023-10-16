@@ -1,0 +1,206 @@
+it/unimi/di/sdp/GRPC/ExitTaxiClient.java
+ it.unimi.di.sdp.GRPC.ExitTaxiClient
+ it.unimi.di.sdp.GRPC.ExitTaxiClient$1
+it/unimi/di/sdp/Taxi.java
+ it.unimi.di.sdp.Taxi
+it/unimi/di/sdp/proto/Recharge.java
+ it.unimi.di.sdp.proto.Recharge
+ it.unimi.di.sdp.proto.Recharge$1
+ it.unimi.di.sdp.proto.Recharge$RechargeRequest
+ it.unimi.di.sdp.proto.Recharge$RechargeRequest$1
+ it.unimi.di.sdp.proto.Recharge$RechargeRequest$Builder
+ it.unimi.di.sdp.proto.Recharge$RechargeRequestOrBuilder
+ it.unimi.di.sdp.proto.Recharge$RechargeResponse
+ it.unimi.di.sdp.proto.Recharge$RechargeResponse$1
+ it.unimi.di.sdp.proto.Recharge$RechargeResponse$Builder
+ it.unimi.di.sdp.proto.Recharge$RechargeResponseOrBuilder
+it/unimi/di/sdp/Simulator/SensorBuffer.java
+ it.unimi.di.sdp.Simulator.SensorBuffer
+it/unimi/di/sdp/Helper/Ride.java
+ it.unimi.di.sdp.Helper.Ride
+it/unimi/di/sdp/Threads/StartNewRide.java
+ it.unimi.di.sdp.Threads.StartNewRide
+it/unimi/di/sdp/Helper/Position.java
+ it.unimi.di.sdp.Helper.Position
+it/unimi/di/sdp/SmartCity.java
+ it.unimi.di.sdp.SmartCity
+it/unimi/di/sdp/proto/ProtoRide.java
+ it.unimi.di.sdp.proto.ProtoRide
+ it.unimi.di.sdp.proto.ProtoRide$1
+ it.unimi.di.sdp.proto.ProtoRide$Ride
+ it.unimi.di.sdp.proto.ProtoRide$Ride$1
+ it.unimi.di.sdp.proto.ProtoRide$Ride$Builder
+ it.unimi.di.sdp.proto.ProtoRide$RideOrBuilder
+ it.unimi.di.sdp.proto.ProtoRide$RideRequest
+ it.unimi.di.sdp.proto.ProtoRide$RideRequest$1
+ it.unimi.di.sdp.proto.ProtoRide$RideRequest$Builder
+ it.unimi.di.sdp.proto.ProtoRide$RideRequestOrBuilder
+ it.unimi.di.sdp.proto.ProtoRide$RideResponse
+ it.unimi.di.sdp.proto.ProtoRide$RideResponse$1
+ it.unimi.di.sdp.proto.ProtoRide$RideResponse$Builder
+ it.unimi.di.sdp.proto.ProtoRide$RideResponseOrBuilder
+it/unimi/di/sdp/Threads/PersistentRides.java
+ it.unimi.di.sdp.Threads.PersistentRides
+it/unimi/di/sdp/GRPC/RechargeClient.java
+ it.unimi.di.sdp.GRPC.RechargeClient
+ it.unimi.di.sdp.GRPC.RechargeClient$1
+it/unimi/di/sdp/GRPC/RideElectionService.java
+ it.unimi.di.sdp.GRPC.RideElectionService
+it/unimi/di/sdp/DataStucture/AvailableQueue.java
+ it.unimi.di.sdp.DataStucture.AvailableQueue
+ it.unimi.di.sdp.DataStucture.AvailableQueue$1
+it/unimi/di/sdp/proto/NewTaxi.java
+ it.unimi.di.sdp.proto.NewTaxi
+ it.unimi.di.sdp.proto.NewTaxi$1
+ it.unimi.di.sdp.proto.NewTaxi$NewTaxiDetails
+ it.unimi.di.sdp.proto.NewTaxi$NewTaxiDetails$1
+ it.unimi.di.sdp.proto.NewTaxi$NewTaxiDetails$Builder
+ it.unimi.di.sdp.proto.NewTaxi$NewTaxiDetailsOrBuilder
+ it.unimi.di.sdp.proto.NewTaxi$TaxiResponse
+ it.unimi.di.sdp.proto.NewTaxi$TaxiResponse$1
+ it.unimi.di.sdp.proto.NewTaxi$TaxiResponse$Builder
+ it.unimi.di.sdp.proto.NewTaxi$TaxiResponseOrBuilder
+it/unimi/di/sdp/GRPC/FinishRechargingClient.java
+ it.unimi.di.sdp.GRPC.FinishRechargingClient
+ it.unimi.di.sdp.GRPC.FinishRechargingClient$1
+it/unimi/di/sdp/Threads/RideMonitor.java
+ it.unimi.di.sdp.Threads.RideMonitor
+ it.unimi.di.sdp.Threads.RideMonitor$1
+it/unimi/di/sdp/Threads/PollutionSensor.java
+ it.unimi.di.sdp.Threads.PollutionSensor
+it/unimi/di/sdp/Threads/StdInput.java
+ it.unimi.di.sdp.Threads.StdInput
+it/unimi/di/sdp/AdministrativeServer.java
+ it.unimi.di.sdp.AdministrativeServer
+it/unimi/di/sdp/GRPC/NewTaxiClient.java
+ it.unimi.di.sdp.GRPC.NewTaxiClient
+ it.unimi.di.sdp.GRPC.NewTaxiClient$1
+it/unimi/di/sdp/GRPC/NewTaxiService.java
+ it.unimi.di.sdp.GRPC.NewTaxiService
+it/unimi/di/sdp/Threads/RemoveRideSETA.java
+ it.unimi.di.sdp.Threads.RemoveRideSETA
+it/unimi/di/sdp/Threads/StopSETA.java
+ it.unimi.di.sdp.Threads.StopSETA
+it/unimi/di/sdp/Threads/SendStatistics.java
+ it.unimi.di.sdp.Threads.SendStatistics
+it/unimi/di/sdp/proto/ExitServiceGrpc.java
+ it.unimi.di.sdp.proto.ExitServiceGrpc
+ it.unimi.di.sdp.proto.ExitServiceGrpc$1
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceBaseDescriptorSupplier
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceBlockingStub
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceFileDescriptorSupplier
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceFutureStub
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceImplBase
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceMethodDescriptorSupplier
+ it.unimi.di.sdp.proto.ExitServiceGrpc$ExitServiceStub
+ it.unimi.di.sdp.proto.ExitServiceGrpc$MethodHandlers
+it/unimi/di/sdp/proto/ExitTaxi.java
+ it.unimi.di.sdp.proto.ExitTaxi
+ it.unimi.di.sdp.proto.ExitTaxi$1
+ it.unimi.di.sdp.proto.ExitTaxi$ExitResponse
+ it.unimi.di.sdp.proto.ExitTaxi$ExitResponse$1
+ it.unimi.di.sdp.proto.ExitTaxi$ExitResponse$Builder
+ it.unimi.di.sdp.proto.ExitTaxi$ExitResponseOrBuilder
+ it.unimi.di.sdp.proto.ExitTaxi$TaxiDetails
+ it.unimi.di.sdp.proto.ExitTaxi$TaxiDetails$1
+ it.unimi.di.sdp.proto.ExitTaxi$TaxiDetails$Builder
+ it.unimi.di.sdp.proto.ExitTaxi$TaxiDetailsOrBuilder
+it/unimi/di/sdp/AdministrativeClient.java
+ it.unimi.di.sdp.AdministrativeClient
+it/unimi/di/sdp/Threads/StartElection.java
+ it.unimi.di.sdp.Threads.StartElection
+it/unimi/di/sdp/GRPC/FinishRechargingService.java
+ it.unimi.di.sdp.GRPC.FinishRechargingService
+it/unimi/di/sdp/Threads/AvailabilitySETA.java
+ it.unimi.di.sdp.Threads.AvailabilitySETA
+it/unimi/di/sdp/Threads/ExitTaxi.java
+ it.unimi.di.sdp.Threads.ExitTaxi
+it/unimi/di/sdp/DataStucture/ActiveRidesQueue.java
+ it.unimi.di.sdp.DataStucture.ActiveRidesQueue
+it/unimi/di/sdp/Helper/RestCalls.java
+ it.unimi.di.sdp.Helper.RestCalls
+it/unimi/di/sdp/DataStucture/RidesQueue.java
+ it.unimi.di.sdp.DataStucture.RidesQueue
+it/unimi/di/sdp/proto/RideServiceGrpc.java
+ it.unimi.di.sdp.proto.RideServiceGrpc
+ it.unimi.di.sdp.proto.RideServiceGrpc$1
+ it.unimi.di.sdp.proto.RideServiceGrpc$MethodHandlers
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceBaseDescriptorSupplier
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceBlockingStub
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceFileDescriptorSupplier
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceFutureStub
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceImplBase
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceMethodDescriptorSupplier
+ it.unimi.di.sdp.proto.RideServiceGrpc$RideServiceStub
+it/unimi/di/sdp/GRPC/ExitTaxiService.java
+ it.unimi.di.sdp.GRPC.ExitTaxiService
+it/unimi/di/sdp/DataStucture/StatisticsBuffer.java
+ it.unimi.di.sdp.DataStucture.StatisticsBuffer
+it/unimi/di/sdp/Simulator/PM10Simulator.java
+ it.unimi.di.sdp.Simulator.PM10Simulator
+it/unimi/di/sdp/DataStucture/PersistentRidesQueue.java
+ it.unimi.di.sdp.DataStucture.PersistentRidesQueue
+it/unimi/di/sdp/Simulator/Measurement.java
+ it.unimi.di.sdp.Simulator.Measurement
+it/unimi/di/sdp/proto/FinishRechargeGrpc.java
+ it.unimi.di.sdp.proto.FinishRechargeGrpc
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$1
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeBaseDescriptorSupplier
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeBlockingStub
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeFileDescriptorSupplier
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeFutureStub
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeImplBase
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeMethodDescriptorSupplier
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$FinishRechargeStub
+ it.unimi.di.sdp.proto.FinishRechargeGrpc$MethodHandlers
+it/unimi/di/sdp/DataStucture/ResponseQueue.java
+ it.unimi.di.sdp.DataStucture.ResponseQueue
+it/unimi/di/sdp/GRPC/RideElectionClient.java
+ it.unimi.di.sdp.GRPC.RideElectionClient
+ it.unimi.di.sdp.GRPC.RideElectionClient$1
+it/unimi/di/sdp/DataStucture/RechargeQueue.java
+ it.unimi.di.sdp.DataStucture.RechargeQueue
+it/unimi/di/sdp/Helper/Statistic.java
+ it.unimi.di.sdp.Helper.Statistic
+it/unimi/di/sdp/DataStucture/Counter.java
+ it.unimi.di.sdp.DataStucture.Counter
+it/unimi/di/sdp/SETA.java
+ it.unimi.di.sdp.SETA
+ it.unimi.di.sdp.SETA$1
+ it.unimi.di.sdp.SETA$2
+it/unimi/di/sdp/proto/RechargeServiceGrpc.java
+ it.unimi.di.sdp.proto.RechargeServiceGrpc
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$1
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$MethodHandlers
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceBaseDescriptorSupplier
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceBlockingStub
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceFileDescriptorSupplier
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceFutureStub
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceImplBase
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceMethodDescriptorSupplier
+ it.unimi.di.sdp.proto.RechargeServiceGrpc$RechargeServiceStub
+it/unimi/di/sdp/proto/NewTaxiServiceGrpc.java
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$1
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$MethodHandlers
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceBaseDescriptorSupplier
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceBlockingStub
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceFileDescriptorSupplier
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceFutureStub
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceImplBase
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceMethodDescriptorSupplier
+ it.unimi.di.sdp.proto.NewTaxiServiceGrpc$NewTaxiServiceStub
+it/unimi/di/sdp/Threads/Recharge.java
+ it.unimi.di.sdp.Threads.Recharge
+it/unimi/di/sdp/Simulator/Buffer.java
+ it.unimi.di.sdp.Simulator.Buffer
+it/unimi/di/sdp/Simulator/Simulator.java
+ it.unimi.di.sdp.Simulator.Simulator
+it/unimi/di/sdp/Threads/CommunicationWithServer.java
+ it.unimi.di.sdp.Threads.CommunicationWithServer
+it/unimi/di/sdp/GRPC/RechargeService.java
+ it.unimi.di.sdp.GRPC.RechargeService
+it/unimi/di/sdp/Threads/StartRecharging.java
+ it.unimi.di.sdp.Threads.StartRecharging
+it/unimi/di/sdp/Threads/GRPCServer.java
+ it.unimi.di.sdp.Threads.GRPCServer

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package it.unimi.di.sdp.proto;
+
+message TaxiDetails {
+  int32 id = 1;
+  int32 portNumber = 2;
+}
+
+message ExitResponse {
+  string response = 1;
+}
+
+service ExitService {
+  rpc exit(TaxiDetails) returns (ExitResponse);
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+package it.unimi.di.sdp.proto;
+
+message RechargeRequest {
+  int32 idTaxi = 1;
+  int32 district = 2;
+  int32 portNumber = 3;
+  double timestamp = 4;
+  double clock = 5;
+}
+
+message RechargeResponse {
+  string response = 1;
+}
+
+service RechargeService {
+  rpc sendRequestToRecharge(RechargeRequest) returns (RechargeResponse);
+}
+
+service FinishRecharge {
+  rpc sendFinishRecharge(RechargeResponse) returns (RechargeResponse);
+}

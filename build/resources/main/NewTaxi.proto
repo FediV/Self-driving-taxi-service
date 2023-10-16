@@ -1,0 +1,17 @@
+syntax = "proto3";
+package it.unimi.di.sdp.proto;
+
+message NewTaxiDetails {
+  int32 id = 1;
+  int32 portNumber = 2;
+  int32 pos_x = 3;
+  int32 pos_y = 4;
+}
+
+message TaxiResponse {
+  string response = 1;
+}
+
+service NewTaxiService {
+  rpc sendNewTaxi(NewTaxiDetails) returns (TaxiResponse);
+}
